@@ -132,17 +132,10 @@ body {
   margin: 0 auto;
   max-width:var(--content-width);
   padding:0 1rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
 }
 
 
-a {
-  color: var(--link);
-}
+
 
 
 @media (prefers-color-scheme: dark) {
