@@ -134,7 +134,34 @@ body {
   padding:0 1rem;
 }
 
+.codespan {
+  display: inline-block;
+  color: #242729;
+  background-color: #e1e3e5;
+  padding: 0 4px 0 4px;
+  font-family: Consolas, "courier new";
+  border-radius: 5px;
+  border-color:1px solid #adb3b9;
+  text-shadow: 0 1px 0 #FFF;
+  font-weight: 800;
+}
 
+pre code {
+  display: block;
+  background: var(--gray-4);
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+
+  border-radius: 5px;
+  border-color:1px solid var(--gray-7);
+  text-shadow: 0 1px 0 var(--font-color-bright);
+  font-weight: 800;
+  font-size: 1.1rem;
+}
 
 
 
