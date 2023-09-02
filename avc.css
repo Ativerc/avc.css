@@ -146,6 +146,10 @@ body {
   font-weight: 800;
 }
 
+/* For Code blocks */
+/* 
+  <pre> <code> Some Code </code> </pre>
+*/
 pre code {
   display: block;
   background: var(--gray-4);
